@@ -1,9 +1,10 @@
 // import React, { use } from 'react';
+
+
 import { FaRegCalendar } from "react-icons/fa";
 
 const Tickets = ({ ticketsdata, handleTask, }) => {
-    // const ticketsdata = use(ticketsPromise)
-    // onList2(tickets);
+   
     return (
         <div className='w-full  '>
             <h2 className='font-semibold text-2xl text-[#34485A] ml-3 md:ml-0 sm:text-center md:text-start'>Customer Tickets</h2>
