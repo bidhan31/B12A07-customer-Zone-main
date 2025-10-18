@@ -1,3 +1,5 @@
+
+
 import React, { useState, useEffect,Suspense } from "react";
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
@@ -20,18 +22,6 @@ async function fetchData() {
 }
 
 
-
-
-// const fetchData = async () => {
-//   const result = await fetch('/tickets.json');
-//   return result.json();
-// };
-// 111111111111111111111111111111111111111111111111
-
-// async function fetchData() {
-//   const res = await fetch("/ticketsdata.json");
-//   return res.json();
-// }
 function App() {
   const [tickets, setTickets] = useState([]);
   const [tasks, setTasks] = useState([]);
@@ -63,11 +53,6 @@ toast.success(`Ticket ${id} Complete!`);
     
   };
 
-  // const ticketsPromise = fetchData()
-//   const ticketsdata = fetchData('')
-// const handleTicket = (ticket) => {
-//   console.log('ticket clicked', ticket)
-// };
 
   return (
     <>
