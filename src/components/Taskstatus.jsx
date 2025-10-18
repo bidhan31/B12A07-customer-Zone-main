@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 
 const Taskstatus = ({ tasks, taskComplete, resolvedTasks }) => {
@@ -33,9 +35,9 @@ const Taskstatus = ({ tasks, taskComplete, resolvedTasks }) => {
                 ) : (
                     <ul className='space-y-3'>
                         {resolvedTasks.map((task) => (
-                        <li key={task.id} className='p-3 bg-white rounded-md shadow-sm flex justify-between items-center w-full'>
-                            <span>{task.title}</span>
-                        </li>
+                            <li key={task.id} className='p-3 bg-white rounded-md shadow-sm flex justify-between items-center w-full'>
+                                <span>{task.title}</span>
+                            </li>
                         ))}
                     </ul>
                 )}
